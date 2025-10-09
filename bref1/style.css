@@ -29,12 +29,12 @@ body>nav {
     display:none;
 }
 
-#work, #team, #about, #about + div {
+#pricing, #work, #team, #about, #about + div {
     padding:128px 16px;
 }
 #work img, #team img {
     width:100%;
 }
-#team>div {
+#pricing>div, #team>div {
     margin-top:64px;
 }
