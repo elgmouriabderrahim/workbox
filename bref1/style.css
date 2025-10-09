@@ -29,7 +29,7 @@ body>nav {
     display:none;
 }
 
-#pricing, #work, #team, #about, #about + div {
+#contact, #pricing, #work, #team, #about, #about + div {
     padding:128px 16px;
 }
 #work img, #team img {
@@ -37,4 +37,7 @@ body>nav {
 }
 #pricing>div, #team>div {
     margin-top:64px;
+}
+#contact img {
+    width:100%;margin-top:48px;
 }
