@@ -29,6 +29,12 @@ body>nav {
     display:none;
 }
 
-#about, #about + div {
+ #team, #about, #about + div {
     padding:128px 16px;
+}
+#team img {
+    width:100%;
+}
+#team>div {
+    margin-top:64px;
 }
