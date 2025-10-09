@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>web3.css template1</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+
+        <div class="w3-top">
+            <div class="w3-bar w3-white w3-card" id="myNavbar">
+                <a href="home.html" class="w3-bar-item w3-button w3-wide">LOGO</a>
+                <!-- Right-sided navbar links -->
+                <div class="w3-right w3-hide-small">
+                <a href="about.html" class="w3-bar-item w3-button">ABOUT</a>
+                <a href="team.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+                <a href="work.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
+                <a href="pricing.html" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
+                <a href="contact.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+                </div>
+                <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+                <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+                <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+
+
+        <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" id="mySidebar">
+            <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+            <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+            <a href="team.html" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+            <a href="work.html" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+            <a href="pricing.html" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
+            <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+        </nav>
+
+
+        <div class="w3-container" id="work">
+            <h3 class="w3-center">OUR WORK</h3>
+            <p class="w3-center w3-large">What we've done for people</p>
+
+            <div class="w3-row-padding" style="margin-top:64px">
+                <div class="w3-col l3 m6">
+                  <img src="../images/work/tech_mic.jpg"  onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone">
+                </div>
+                <div class="w3-col l3 m6">
+                  <img src="../images/work/tech_phone.jpg"  onclick="onClick(this)" class="w3-hover-opacity" alt="A phone">
+                </div>
+                <div class="w3-col l3 m6">
+                  <img src="../images/work/tech_drone.jpg"  onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
+                </div>
+                <div class="w3-col l3 m6">
+                  <img src="../images/work/tech_sound.jpg" onclick="onClick(this)" class="w3-hover-opacity" alt="Soundbox">
+                </div>
+            </div>
+
+            <div class="w3-row-padding w3-section">
+                <div class="w3-col l3 m6">
+                  <img src="../images/work/tech_tablet.jpg" onclick="onClick(this)" class="w3-hover-opacity" alt="A tablet">
+                </div>
+                <div class="w3-col l3 m6">
+                  <img src="../images/work/tech_camera.jpg" onclick="onClick(this)" class="w3-hover-opacity" alt="A camera">
+                </div>
+                <div class="w3-col l3 m6">
+                  <img src="../images/work/tech_typewriter.jpg" onclick="onClick(this)" class="w3-hover-opacity" alt="A typewriter">
+                </div>
+                <div class="w3-col l3 m6">
+                  <img src="../images/work/tech_tableturner.jpg" onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner">
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="w3-container w3-light-grey w3-padding-64">
+          <div class="w3-row-padding">
+            <div class="w3-col m6">
+              <h3>Our Skills.</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
+              tempor incididunt ut labore et dolore.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
+              tempor incididunt ut labore et dolore.</p>
+            </div>
+            <div class="w3-col m6">
+              <p class="w3-wide"><i class="fa fa-camera w3-margin-right"></i>Photography</p>
+              <div class="w3-grey">
+                <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
+              </div>
+              <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Web Design</p>
+              <div class="w3-grey">
+                <div class="w3-container w3-dark-grey w3-center" style="width:85%">85%</div>
+              </div>
+              <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>Photoshop</p>
+              <div class="w3-grey">
+                <div class="w3-container w3-dark-grey w3-center" style="width:75%">75%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <footer class="w3-center w3-black w3-padding-64">
+  <a href="#work" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+      </footer>
+    </body>
+</html>

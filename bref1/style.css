@@ -29,10 +29,10 @@ body>nav {
     display:none;
 }
 
- #team, #about, #about + div {
+#work, #team, #about, #about + div {
     padding:128px 16px;
 }
-#team img {
+#work img, #team img {
     width:100%;
 }
 #team>div {
