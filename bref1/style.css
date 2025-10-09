@@ -24,3 +24,11 @@ body, html {
 #home>div:nth-child(2) {
     padding:24px 48px;
 }
+
+body>nav {
+    display:none;
+}
+
+#about, #about + div {
+    padding:128px 16px;
+}
