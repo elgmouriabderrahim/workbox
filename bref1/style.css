@@ -18,10 +18,10 @@ body, html {
     padding: 16px;
 }
 
-#home>div:first-child {
+#index>div:first-child {
     padding:48px;
 }
-#home>div:nth-child(2) {
+#index>div:nth-child(2) {
     padding:24px 48px;
 }
 
